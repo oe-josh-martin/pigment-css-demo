@@ -1,0 +1,24 @@
+{
+    "name": "sandbox",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev -p 3000",
+        "build": "next build",
+        "typecheck": "tsc --pretty --noEmit"
+    },
+    "dependencies": {
+        "@kt/pigmentcss": "file:../package/",
+        "@pigment-css/react": "^0.0.11",
+        "@types/node": "20.11.24",
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0",
+        "next": "14.2.1",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "typescript": "^5.4.3"
+    },
+    "devDependencies": {
+        "@pigment-css/nextjs-plugin": "^0.0.11"
+    }
+}
